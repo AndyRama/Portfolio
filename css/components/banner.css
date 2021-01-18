@@ -1,0 +1,30 @@
+.banner {
+  display: flex;
+  height: 100vh;
+  color: #fff;
+  min-height: 500px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.banner .max-width {
+  margin: auto 0 auto 40px;
+}
+
+.banner .banner-content .text-1 {
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+
+.banner .banner-content .text-2 {
+  font-size: 27px;
+}
+
+.banner .banner-content .text-3 {
+  font-size: 27px;
+}
+
+.banner .banner-content .text-3 span {
+  color: crimson ;
+  font-weight: 500;
+}
