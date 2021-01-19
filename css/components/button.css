@@ -5,3 +5,32 @@
   cursor: pointer;
   display: none;
 }
+
+.banner .banner-content .btn {
+  display: inline-block;
+  background:crimson;
+  color: #fff;
+  font-size: 20px;
+  padding: 12px 36px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 2px solid crimson ;
+  transition: all 0.3s ease;
+}
+.banner .banner-content .btn:hover {
+  color: #fff; 
+  background: none;
+}
+
+.banner .banner-content .fab {
+  opacity: 0.7;
+  display: inline-block;
+  margin-top: 10px;  
+  color: crimson;
+  font-size: 30px;
+}
+.banner .banner-content .fab:hover {
+  color: #fff; 
+  background: black;
+}

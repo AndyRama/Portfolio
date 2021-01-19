@@ -25,6 +25,7 @@
 }
 
 /* Responsive media query start */
+
 @media(max-width: 1104px) {
   .banner .max-width {
     margin-left: 0px;
@@ -82,11 +83,22 @@
 }
 
 @media(max-width:690px) {
+  .max-width{
+    padding: 0 23px;
+  }
   .banner .banner-content .text-1 {
     font-size: 60px;
   }
   .banner .banner-content .text-3 {
     font-size: 32px;
   }
-  
+}
+
+@media (max-width:500px) {
+  .banner .banner-content .text-1 {
+    font-size: 50px;
+  }
+  .banner .banner-content .text-3 {
+    font-size:  27px;  
+  }
 }
