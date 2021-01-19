@@ -1,0 +1,83 @@
+
+/* Responsive media query start */
+
+@media(max-width: 1104px) {
+  .banner .max-width {
+    margin-left: 0px;
+  } 
+}
+
+@media(max-width:991px) {
+   .max-width {
+     padding: 0 50px;   
+   }
+}
+
+@media(max-width:947px) {
+  .max-width {
+    padding: 0 50px;
+  }
+  .menu-btn {
+    display: block;
+    z-index: 999;
+  }
+  .menu-btn i.active:before {
+    content:"\f00d";
+  }
+  .navbar .menu {
+    position: fixed;
+    height: 50vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    background: #111;
+    text-align: center;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.3s ease ;
+  }
+  .navbar .menu .active {
+    left: 0;
+  }
+  .navbar .menu li {
+    display: block;    
+  }
+  .navbar .menu li a{
+    display: inline-block;
+    margin-left: 20px 0;
+    font-size: 25px;
+  }
+  .banner .banner-content .text-1 {
+    font-size: 75px;
+  }
+  .banner .banner-content .text-3 {
+    font-size: 35px;
+  }
+}
+
+@media(max-width:690px) {
+  .max-width{
+    padding: 0 23px;
+  }
+  .banner .banner-content .text-1 {
+    font-size: 60px;
+  }
+  .banner .banner-content .text-3 {
+    font-size: 32px;
+  }
+  .banner .banner-content .btn {
+    font-size:20px;
+    padding: 9px 25px ; 
+  }
+}
+
+@media (max-width:500px) {
+  .banner .banner-content .text-1 {
+    font-size: 50px;
+  }
+  .banner .banner-content .text-3 {
+    font-size:  27px;  
+  }
+}
