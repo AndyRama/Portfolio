@@ -17,6 +17,7 @@
   border-radius: 5px;
   border: 2px solid crimson ;
   transition: all 0.3s ease;
+font-weight: 500;
 }
 .banner .banner-content .btn:hover {
   color: #fff; 

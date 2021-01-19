@@ -92,6 +92,10 @@
   .banner .banner-content .text-3 {
     font-size: 32px;
   }
+  .banner .banner-content .btn {
+    font-size:20px;
+    padding: 9px 25px ; 
+  }
 }
 
 @media (max-width:500px) {
