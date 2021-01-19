@@ -7,9 +7,9 @@
 @import url("components/button.css");
 
 /* --- Section design --- */
-@import url("sections/about.css");
+@import url("sections/About.css");
 @import url("sections/Responsive.css");
-/* @import url("sections/projects.css"); */
+@import url("sections/Projects.css");
 /* @import url("sections/services.css"); */
 /* @import url("sections/skills.css"); */
 /* @import url("sections/teams.css"); */
