@@ -1,17 +1,46 @@
+.Project {
+  color: #fff;
+  background-color: #111;
+}
+.Project .title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: 'Ubuntu' sans-serif ;
+}
+
 .Project .carousel .card {
   background-color: #222;
   border-bottom: 5px;
   padding: 25px 35px;
-}
-.Project .carousel .card img {
-  height: 150px;
-  width: 150px;
-  object-fit: cover;
-  border-radius: 5px;
 }
 .Project .carousel .card .box {
   display: flex;
   flex-direction: column ;
   align-items: center;
   justify-content: center;
+}
+.Project .carousel .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px;
+}
+.Project .carousel .card .box a {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px;
+box-border: 5px solid red;
+}
+.Project .carousel .card .box p{
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px;
+}
+.Project .carousel .card img {
+  height: 150px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 5px;
 }
