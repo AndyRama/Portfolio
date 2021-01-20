@@ -9,8 +9,8 @@
 /* --- Section design --- */
 @import url("sections/About.css");
 @import url("sections/Responsive.css");
-@import url("sections/Projects.css");
 @import url("sections/Services.css");
+@import url("sections/Projects.css");
 /* @import url("sections/Skills.css"); */
 /* @import url("sections/Teams.css"); */
 /* @import url("sections/Contact.css"); */
@@ -44,11 +44,12 @@ section {
     padding: 0 80px;
     margin: auto;
 }
-.about, .services {
+.about, .services, .projects {
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content, 
-.services .serv-content {
+.services .serv-content,
+.projects .proj-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
