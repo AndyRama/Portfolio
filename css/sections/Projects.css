@@ -12,7 +12,6 @@
 .projects .title::before {
   content: "";
   position: absolute;
-  /* bottom: 0px; */
   left: 50%;
   width:  180px;
   height: 3px;
