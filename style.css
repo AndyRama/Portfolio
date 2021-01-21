@@ -56,7 +56,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .formations .teams, .contact, footer{
+.about, .services, .formations, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content, 
