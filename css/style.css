@@ -31,7 +31,8 @@
 
 /* banner design */
 .banner {
-  background: url('../images/banner.jpeg') no-repeat center;
+  /* background: url('../images/banner.jpeg') no-repeat center; */
+  background-color: black;
 }
 
 /* all similar content styling codes */
@@ -79,7 +80,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: #f56253;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);

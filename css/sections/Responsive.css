@@ -11,15 +11,19 @@
     height: 350px;
     width: 350px;
   }
+  .projects .proj-content .card .box a img {
+    height: 200px ;
+    width: 240px ;
+  }
 }
 
 @media(max-width:991px) {
-   .max-width {
-     padding: 0 50px;   
-   }
+  .max-width {
+    padding: 0 50px;   
+  }
 }
 
-@media(max-width:947px) {
+@media(max-width:961px) {
   .max-width {
     padding: 0 50px;
   }
@@ -79,6 +83,21 @@
   .about .about-content .right {
     flex: 100%;
   }
+  .services .serv-content .card {
+    width: calc(70% - -178px);
+    margin-bottom: 20px;
+    box-sizing: none;
+  }
+  .services .serv-content .card {
+     width:calc(70% - -178px)!important;
+  }
+  .projects .proj-content .card {
+     width:calc(70% - -178px)!important;
+  }
+  .projects .proj-content .card .box a img {
+    /* height: 180px ; */
+    /* width: 385px ; */
+  }
 }
 
 @media(max-width:690px) {
@@ -95,13 +114,41 @@
     font-size:20px;
     padding: 9px 25px ; 
   }
+  .services .serv-content .card {
+     width:calc(70% - -178px)!important;
+  }
+  .projects .proj-content .card {
+     width:calc(70% - -178px)!important;
+  }
+ .projects .proj-content {
+   /* justify-content: center !important; */
+   /* padding-right: 16px !important;  */
+       /* margin-left: -11px;
+    margin-top: -5px; */
+}
+  }
+  .projects .proj-content .card .box a img {
+    height: 180px ;
+    width: 385px ;
+  }
 }
 
 @media (max-width:500px) {
   .banner .banner-content .text-1 {
     font-size: 50px;
+    padding-left: 0;
   }
   .banner .banner-content .text-3 {
     font-size:  27px;  
+  }
+  .services .serv-content .card {
+   width: 100%;
+  }
+  .projects .proj-content {
+  justify-content: center !important;
+  }
+  .projects .proj-content .card .box img {
+    height: 180px ;
+    width: 285px ;
   }
 }
