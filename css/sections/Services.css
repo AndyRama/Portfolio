@@ -1,28 +1,28 @@
-
-/* services section styling */
-.services {
+services section styling
+.services, .teams{
     color:#fff;
     background: #111;
 }
-.services .title::before{
+.services .title::before,
+.teams .title::before{
     background: #fff;
 }
-.services .title::after{
+.services .title::after,
+.teams .title::after{
     background: #111;
-    content: "competence";
+    content: "what i provide";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
     border-radius: 6px;
-    margin-top: 20px;
-    padding: 20px 25px;
+    /* padding: 20px 25px; */
     cursor: pointer;
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: #f56253;
+    background: crimson;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -32,7 +32,7 @@
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: #f56253;
+    color: crimson;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -42,4 +42,10 @@
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+.services .serv-content{
+  display: flex;
+  flex-wrap: content;
+  align-items: center;
+  justify-content: space-between;
 }

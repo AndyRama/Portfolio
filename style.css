@@ -6,15 +6,16 @@
 @import url(css/components/btn.css);
 @import url(css/components/footer.css);
 @import url(css/components/navbar.css);
+@import url(css/components/button.css);
 
 /* --- Section design --- */
 @import url(css/sections/About.css);
 @import url(css/sections/Responsive.css);
 @import url(css/sections/Services.css);
 @import url(css/sections/Projects.css);
-/* @import url(css/section/contact.css); */
-/* @import url(css/section/formations.css); */
-/* @import url(css/section/teams.css); */
+@import url(css/sections/Formations.css);
+@import url(css/sections/teams.css);
+@import url(css/sections/Contact.css);
 
 *{
   margin: 0;
