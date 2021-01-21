@@ -1,5 +1,4 @@
 /* banner design */
-@export url("css/components/banner.css");
 .banner {
   display: flex;
   height: 100vh;

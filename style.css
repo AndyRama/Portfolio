@@ -2,16 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 /* --- Components design --- */
-@import url(css/component/banner.css);
-@import url(css/component/btn.css);
-@import url(css/component/footer.css);
-@import url(css/component/navbar.css);
+@import url(css/components/banner.css);
+@import url(css/components/btn.css);
+@import url(css/components/footer.css);
+@import url(css/components/navbar.css);
 
 /* --- Section design --- */
-@import url(css/section/about.css);
-@import url(css/section/responsive.css);
-@import url(css/section/service.css);
-@import url(css/section/projects.css);
+@import url(css/sections/About.css);
+@import url(css/sections/Responsive.css);
+@import url(css/sections/Services.css);
+@import url(css/sections/Projects.css);
 /* @import url(css/section/contact.css); */
 /* @import url(css/section/formations.css); */
 /* @import url(css/section/teams.css); */
@@ -28,7 +28,7 @@ html{
 }
 
 .banner{
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/banner.jpeg") no-repeat center;
     /* background: black; */
 }
 
