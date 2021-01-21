@@ -7,12 +7,11 @@
 @import url("css/components/button.css");
 
 /* --- Section design --- */
-@import url("css/sections/About.css");
 @import url("css/sections/Responsive.css");
+@import url("css/sections/About.css");
+/* @import url("sections/Formation.css"); */
 @import url("css/sections/Projects.css");
 @import url("css/sections/Services.css");
-/* @import url("sections/Skills.css"); */
-/* @import url("sections/Teams.css"); */
 /* @import url("sections/Contact.css"); */
 
 *{

@@ -1,44 +1,47 @@
 <!DOCTYPE html>
-<!-- Created By Andy Ramaroson -->
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andy Ramaroson</title>
-    <!-- <link href="images/ruby.jpg" rel="icon" type="image/x-icon" /> -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/> -->
-  </head>
+<!-- Coding by Andy Ramaroson -->
+<html lang="fr">
+	<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Andy Ramaroson</title>
+			<link rel="stylesheet" href="style.css">
+			<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+			<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+	</head>
   <body>
-   <nav class="navbar">
-     <div class="max-width">
-       <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
-       <ul class="menu">
-         <li><a href="#1">Home</a></li>
-         <li><a href="#2">About</a></li>
-         <li><a href="#3">Services</a></li>
-         <li><a href="#4">Projects</a></li>
-         <li><a href="#5">Teams</a></li>
-         <li><a href="#6">Contact</a></li>
-       </ul>
-       <div class="menu-btn">
-         <i class="fas fa-bars"></i>
-       </div>
+    <div class="scroll-up-btn">
+    	<i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+    	<div class="max-width">
+      	<div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+        	<ul class="menu">
+          	<li><a href="#banner" class="menu-btn">Home</a></li>
+            <li><a href="#about" class="menu-btn">About</a></li>
+            <li><a href="#projets" class="menu-btn">Projets</a></li>
+            <li><a href="#formations" class="menu-btn">Formations</a></li>
+						<li><a href="#teams" class="menu-btn">Equipes</a></li>
+            <li><a href="#contact" class="menu-btn">Contact</a></li>
+          </ul>
+         <div class="menu-btn">
+           <i class="fas fa-bars"></i>
+         </div>
       </div>
-   </nav>
-   <section class="banner" id="1">
+    </nav>
+    <!-- hero-banner section start -->
+    <section class="banner" id="1">
      <div class="max-width">
        <div class="banner-content">
          <div class="text-1">Andy Ramaroson</div>
-         <div class="text-2">Fullstack Developer | Ruby on Rails</div>
+         <div class="text-2">Fullstack Developer | RoR</div>
          <div class="text-3"><span>Wagon</span> Bordeaux | <span>Batch#484</span></div>
          <a href="https://www.youtube.com/watch?v=SJ3Zk3P9iX0&t=770s" target="new" class="btn">DemoDay</a>
-         <a href="#4" class="btn" id="Projects" class="btn">Projects</a>
+         <a href="#projets" class="btn" id="Projects" class="btn">Projects</a>
          <div class="banner-links">
            <a href="https://github.com/AndyRama" target="new"><i class="fab fa-github"></i></a>
            <a href="https://www.linkedin.com/in/andy-ramaroson" target="new"><i class="fab fa-linkedin"></i></a>
@@ -46,204 +49,175 @@
        </div>
      </div>
    </section>
-   <section class="about" id="2">
-     <div class="max-width">
-      <h2 class="title">About me</h2>
-       <div class="about-content">
-         <div class="column left">
-            <img src="images/profile-1.jpeg" alt="">
-         </div>
-         <div class="column right">
-           <div class="text">I'm Andy and I'm a <span>Fullstack Developer</span></div>
-           <p>Coming from a BTS in electronic system, I worked for the company <strong>Bio Medical Electronique </strong>in several departments for 5 years (After-Sales Service, Production and Design Office). In 2013, I undertook a recoversion in IT as an IT Network Technician. I worked at the DSi of the Libourne hospital for 1 years where I discovered the operation of an IT department and network administration maintenance. Subsequently, I created as an Auto-Entrepreneur of IT assistance and maintenance in Mérignac for Liberal firms.<br><br> In October 2020 I join this training in order to develop my knowledge in this field with <strong>leWagon</strong>. I am able to build a database backed web application with good UX. Have a good design and integrate an A.P.I. But also put the project in production and work as a team with a workflow such as git & GitHub.</p> 
-           <a href="#">Download CV</a>
-          </div>
-       </div>
-     </div>
-   </section>
-    <!-- services section start -->
-   <section class="services" id="3">
-      <div class="max-width">
-        <h2 class="title">Formation</h2>
-          <div class="serv-content">
-            <div class="card">
-              <div class="box">
-                <!-- <i class="fas fa-code "></i> -->
-                  <div class="text">Wagon | BATCH#484</div>
-                    <p>HTML5/CSS3.<br>
-                    Javascript6/Jquery.<br>
-                    Integration of mockup</p>
-                  </div>
-              </div>
-             <div class="card">
-               <div class="box">
-                  <!-- <i class="fas fa-code"></i> -->
-                    <div class="text">AFPA</div>
-                    <p>Build a web app backed with a database.
-                     Framework ruby on Rails, DB progresql, pattern MVC</p>
-               </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <!-- <i class="fas fa-paint-brush"></i> -->
-                        <div class="text">BTS</div>
-                        <p>Users stories / Users flow
-                        Draw schema of database.
-                        Site Map with Wireframe.
-                        Prototypage with FIGMA.</p>
-                    </div>
-                </div>
-              </div>
+    <!-- about section start -->
+    <section class="about" id="about">
+	    <div class="max-width">
+        <h2 class="title">A propos de moi </h2>
+          <div class="about-content">
+            <div class="column left">
+              <img src="images/profile-1.jpeg" alt="">
             </div>
-        </div>
+           <div class="column right">
+             <div class="text">Je suis Andy et je suis <span> Developpeur Fullstack</span></div>
+               <p> Issu d'un BTS en système électronique, j'ai travaillé pour la société <strong> Bio Medical Electronique </strong> dans plusieurs services, pendant 5 ans (Service Après-Vente, Service de Production et Bureau d'Etudes). <br><br> En 2013, j'ai entrepris une reconversion en informatique en tant que technicien réseau télecommunication. J'ai travaillé au DSi de l'hôpital de Libourne pendant 1 an où j'ai découvert le fonctionnement d'un service informatique, la maintenance  et l'administration réseau. <br><br> Par la suite, j'ai créé une entreprise en tant qu'Auto-Entrepreneur dans l'assistance et de la maintenance informatique à sur Mérignac pour les cabinets libéraux. <br> <br> En octobre 2020 je rejoins cette formation afin de développer mes connaissances dans ce domaine avec <strong> leWagon </strong>. Je suis capable de créer une application Web basée sur une base de données avec une bonne UX. Avoir un bon design et intégrer un A.P.I. Mais aussi mettre le projet en production et travailler en équipe avec un workflow tel que git & GitHub. </p> 
+               <a href="#">Download CV</a>
+           </div>
+         </div>
+      </div>
     </section>
-      <!-- Project section start -->
-     <section class="projects" id="4">
+    <!-- Project section start -->
+    <section class="projects" id="projects">
       <div class="max-width">
-        <h2 class="title">My projects</h2>
-          <div class="proj-content">
+        <h2 class="title">@projet = Projet.all</h2>
+          <div class="pro-content">
             <div class="card">
               <div class="box">
                 <a href="https://github.com/AndyRama/My_Street_View" target="new">
-                <img src="./images/MyStreetView.png" alt=""></a>
-                  <div class="text">My City View</div>
-                    <p><i class="fab fa-github"style=bg-co></i></p>
-                    <p>User: Patrick@gmail.com</p>
-                    <p>MDP: i am Mayor 1</p>
+                <img src="./images/MyStreetView.png" alt=""></a>  
+								<div class="text">My city views</div>
+                  <i class="fab fa-github"style=bg-co></i>
+                  <p>User: Patrick@gmail.com</p>
+									<p>Pwd: i am Mayor 1</p>
               </div>
-             </div>
-             <div class="card">
-               <div class="box">
-                 <a href="https://github.com/AndyRama/andycave" target="new">
-                 <img src="./images/MyCave.png" alt=""></a>                 
-                   <div class="text">My cave</div>
-                   <p><i class="fab fa-github"style=bg-co></i></p>
-                    <p>User: Admin</p>
-                    <p>MDP: Admin</p>
-               </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                      <a href="https://github.com/AndyRama/rails-garden-manager" target="new">
-                      <img src="./images/MyGardenManager.png" alt=""></a>
-                        <div class="text">MyGardenManager</div>
-                        <p><i class="fab fa-github"style=bg-co></i></p>
-                        <p>User: Admin</p>
-                        <p>MDP: Admin</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                      <a href="https://github.com/AndyRama/rails-mister-cocktail" target="new">
-                      <img src="./images/Mister cocktails.png" alt=""></a>
-                        <div class="text">Mister Cocktail</div>
-                       <p><i class="fab fa-github"style=bg-co></i></p>
-                       <p>User: Admin</p>
-                       <p>MDP: Admin</p>
-                    </div>
-                </div>
-                  <div class="card">
-                    <div class="box">
-                      <a href="https://github.com/AndyRama/My_Street_View" target="new">
-                      <img src="./images/MyStreetView.png" alt=""></a>
-                        <div class="text">PandorraBox</div>
-                        <p><i class="fab fa-github"style=bg-co></i></p>
-                        <p>User: Admin</p>
-                        <p>MDP: Admin</p>
-                    </div>
-                </div>
-                 <div class="card">
-                    <div class="box">
-                      <a href="https://github.com/AndyRama/Portfolio" target="new">
-                      <img src="./images/Portfolio.png" alt=""></a>
-                        <div class="text">Portfolio</div>
-                       <p><i class="fab fa-github"style=bg-co></i></p>
-                       <p>User: Admin</p>
-                       <p>MDP: Admin</p>
-                    </div>
-                </div>
-               </div>
             </div>
-        </div>
+           <div class="card">
+        	   <div class="box">
+          	    <a href="https://github.com/AndyRama/andycave" target="new">
+                <img src="./images/My_cave.png" alt="">  
+								<div class="text">My cave</div>
+                  <i class="fab fa-github"style=bg-co></i>
+                  <p>User: Patrick@gmail.com</p>
+									<p>Pwd: i am Mayor 1</p></a>
+              </div>
+            </div>
+           <div class="card">
+             <div class="box">
+               <a href="https://github.com/AndyRama/rails-garden-manager" target="new">
+               <img src="./images/MyGardenManager.png" alt=""> 
+							   <div class="text">My Garden Manager</div>
+                   <i class="fab fa-github"style=bg-co></i>
+                   <p>User: aucun</p>
+									 <p>pwd: aucun</p></a> 
+             </div>
+            </div>
+          </div>
+      </div>
     </section>
-    <section class="services" id="3">
+    <section class="projects" id="projets">
       <div class="max-width">
-        <h2 class="title">My services</h2>
-          <div class="serv-content">
+        <div class="pro-content">
             <div class="card">
               <div class="box">
-                <i class="fas fa-code "></i>
-                  <div class="text">Font-End</div>
-                    <p>HTML5/CSS3.<br>
-                    Javascript6/Jquery.<br>
-                    Integration of mockup</p>
-                  </div>
+                <a href="https://github.com/AndyRama/rails-mister-cocktail" target="new">
+                <img src="./images/MisterCocktails.png" alt=""> 
+							    <div class="text">Mister Cocktails</div>
+                    <i class="fab fa-github"style=bg-co></i>
+                    <p>User: aucun</p>
+									  <p>pwd: aucun</p></a> 
               </div>
-             <div class="card">
-               <div class="box">
-                  <i class="fas fa-code"></i>
-                    <div class="text">Back-End</div>
-                    <p>Build a web app backed with a database.
-                     Framework ruby on Rails, DB progresql, pattern MVC</p>
-               </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-paint-brush"></i>
-                        <div class="text">UI/UX Design</div>
-                        <p>Users stories / Users flow
-                        Draw schema of database.
-                        Site Map with Wireframe.
-                        Prototypage with FIGMA.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-cubes"></i>
-                        <div class="text">Projects R.o.R</div>
-                        <p>Build a web app with a database.
-                         Use and integre API Rest.Push the project in to production.
-                         Work as a team with a Git/GitHub workflow.</p>
-                    </div>
-                </div>
-                  <div class="card">
-                    <div class="box"id="1">
-                        <i class="fas fa-laptop-code"></i>
-                        <div class="text">Admin. System</div>
-                        <p>Prototypage WEB app/mobile with FIGMA.</p>
-                        <p>Build a web app backed by a database.</p>
-                        <p>Work as a team with a git/GitHub workflow.</p>
-                        <p>Push the project in to production.</p>
-                    </div>
-                </div>
-                 <div class="card">
-                    <div class="box">
-                        <i class="fas fa-tools"></i>
-                        <div class="text">Technicien Reseaux</div>
-                        <p>Prototypage WEB app/mobile with FIGMA.</p>
-                        <p>Build a web app backed by a database.</p>
-                        <p>Work as a team with a git/GitHub workflow.</p>
-                        <p>Push the project in to production.</p>
-                    </div>
-                </div>
-               </div>
             </div>
+           <div class="card">
+        	   <div class="box">
+          	   <a href="https://github.com/AndyRama/rails-clone-airbnb" target="new">
+               <img src="./images/Rbnb.png" alt=""> 
+							   <div class="text">Airbnb Clone</div>
+                   <i class="fab fa-github"style=bg-co></i>
+                   <p>User: aucun</p>
+									 <p>pwd: aucun</p></a> 
+              </div>
+            </div>
+           <div class="card">
+             <div class="box">
+               <a href="https://github.com/AndyRama/Portfolio" target="new">
+               <img src="./images/portfolio.png" alt=""> 
+							   <div class="text">Portfolio</div>
+                   <i class="fab fa-github"style=bg-co></i>
+                   <p>User: aucun</p>
+									 <p>pwd: aucun</p></a> 
+             </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- Formations section start -->
+     <section class="formations" id="formations">
+      <div class="max-width">
+        <h2 class="title">Formations</h2>
+          <div class="form-content">
+            <div class="card">
+              <div class="box">
+                <i class="fas fa-cubes"></i>
+                  <div class="text">Gestion de projets</div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+              </div>
+            </div>
+           <div class="card">
+        	   <div class="box">
+          	   <i class="fas fa-code"></i>
+            	   <div class="text">Front-end</div>
+              	   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+              </div>
+            </div>
+           <div class="card">
+             <div class="box">
+               <i class="fas fa-code"></i>
+                 <div class="text">Back-end</div>
+                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+             </div>
+            </div>
+				  </div>
+      </div>
+    </section>
+    <!-- teams section start -->
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">Equipes</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="images/profile-1.jpeg" alt="">
+                        <div class="text">Andy Ramaroson</div>
+                        <p>Back-end : My cave <br>Front-end : My City Views</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/profile-2.jpeg" alt="">
+                        <div class="text">Alexis Roger</div>
+                        <p>Front-end : My Cave <br>Back-end : My City Views</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/profile-3.jpeg" alt="">
+                        <div class="text">Julian Larcher</div>
+                        <p>Back-end : My Cave <br>Front-end : My City Views</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/profile-4.jpeg" alt="">
+                        <div class="text">Matias xxxx</div>
+                        <p>Front-end : My Cave <br>Back-end: My City Views</p>
+                    </div>
+                </div>
+              </div>
         </div>
     </section>
     <!-- contact section start -->
-    <section class="contact" id="5">
+    <section class="contact" id="contact">
         <div class="max-width">
-            <h2 class="title">Contact me</h2>
+            <h2 class="title">Me Contacter</h2>
             <div class="contact-content">
                 <div class="column left">
-                    <div class="text">Get in Touch</div>
+                    <div class="text">Actuellement en recherche.</div>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum corporis fuga corrupti. Doloribus quis soluta nesciunt veritatis vitae nobis?</p>
                     <div class="icons">
                         <div class="row">
                             <i class="fas fa-user"></i>
                             <div class="info">
                                 <div class="head">Name</div>
-                                <div class="sub-title">Andy Ramaroson</div>
+                                <div class="sub-title">Ramaroson Andy</div>
                             </div>
                         </div>
                         <div class="row">
@@ -263,34 +237,35 @@
                     </div>
                 </div>
                 <div class="column right">
-                    <div class="text">Message me</div>
+                    <div class="text">Envoyer un Message</div>
                     <form action="#">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" placeholder="Noms" required>
                             </div>
                             <div class="field email">
                                 <input type="email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" placeholder="Suject" required>
                         </div>
                         <div class="field textarea">
                             <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button">
-                            <button type="submit">Send message</button>
+                            <button type="submit">Message</button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </section>
-     <!-- footer section start -->
+    <!-- footer section start -->
     <footer>
-        <span>Created By <a href="#">Andy Ramaroson</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+        <span>Coding By <a href="#">Andy Ramaroson.</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
     </footer>
-   <script src="/script.js"></script>
+    <!-- script JS -->
+    <script src="script.js"></script>
   </body>
-</html> 
+</html>
