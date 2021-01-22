@@ -1,10 +1,10 @@
 /* formations section styling */
 .formations {
-  color:#fff;
+  color:#111;
   background: #fff;
 }
 .formations .title::before {
-  background: #111;
+  background: #fff;
 }
 .formations .title::after {
   background: #fff;
@@ -15,7 +15,7 @@
   background: #222;
   text-align: center;
   border-radius: 6px;
-  /* padding: 20px 25px; */
+  padding: 20px 25px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -40,6 +40,10 @@
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
+  color: #fff;
+}
+.formations .form-content .card p{
+  color: #fff;
 }
 .formations .form-content{
   display: flex;

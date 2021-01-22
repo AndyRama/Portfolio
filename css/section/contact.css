@@ -1,7 +1,7 @@
 
 /* contact section styling */
 .contact .title::after{
-  content: "N'hesiter pas";
+  content: "n'hesiter pas";
 }
 .contact .contact-content .column{
   width: calc(50% - 30px);
