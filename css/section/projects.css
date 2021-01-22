@@ -12,16 +12,16 @@
 }
 .projects .pro-content .card{
   width: calc(33% - 20px);
-  background: #222;
+  /* background: #222; */
   text-align: center;
   border-radius: 6px;
-  /* padding: 20px 25px; */
+  padding: 20px 25px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.projects .pro-content .card:hover{
-  background: #d24439;
-}
+/* .projects .pro-content .card:hover{
+     background: #d24439; 
+} */
 .projects .pro-content .card .box{
   transition: all 0.3s ease;
   background: #d24439;
@@ -31,6 +31,7 @@
   height: 170px;
   width: 300px;
   margin-top: 5px;
+  border: 2px solid black;
 }
 .projects .pro-content .card:hover .box{
   transform: scale(1.05);
