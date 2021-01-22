@@ -1,7 +1,7 @@
 
 /* teams section styling */
 .teams .title::after{
-    content: "";
+    content: "Colaborateur";
 }
 .teams .carousel .card{
     background: #222;
@@ -26,8 +26,17 @@
 }
 .teams .carousel .card .text{
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 700;
     margin: 10px 0 7px 0;
+}
+.teams .carousel .card p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0 7px 0;
+    color: #d24439;
+}
+.teams .carousel .card:hover p{
+    color: #fff;
 }
 .teams .carousel .card img{
     height: 150px;

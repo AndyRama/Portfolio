@@ -8,7 +8,7 @@
 }
 .formations .title::after {
   background: #fff;
-  content: "competences";
+  content: "formations";
 }
 .formations .form-content .card{
   width: calc(33% - 20px);

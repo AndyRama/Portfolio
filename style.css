@@ -28,8 +28,8 @@ html{
 }
 
 .banner{
-    background: url("images/banner.jpg") no-repeat center;
-    /* background: black; */
+    /* background: url("images/banner.jpg") no-repeat center; */
+    background: black;
 }
 
 /* custom scroll bar */
@@ -49,7 +49,7 @@ html{
 
 /* all similar content styling codes */
 section{
-    padding: 50px 0;
+    padding: 100px 0;
 }
 .max-width{
     max-width: 1300px;
@@ -97,20 +97,6 @@ section .title::after{
     transform: translateX(-50%);
 }
  
-/* about section styling */
-.about .title::after{
-    content: "reconversion";
-}
-.about .about-content .left{
-    width: 45%;
-}
-.about .about-content .left img{
-    height: 400px;
-    width: 400px;
-    object-fit: cover;
-    border-radius: 6px;
-}
-
 .owl-dots{
     text-align: center;
     margin-top: 20px;
