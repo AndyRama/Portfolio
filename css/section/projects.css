@@ -1,65 +1,70 @@
-/* projets section styling */
+
+/* projects section styling */
 .projects {
   color:#fff;
   background: #111;
 }
-.projects .title::before {
-  background: #fff;
-}
+
 .projects .title::after {
-  background: #111;
   content: "En production";
+  background: #111;
 }
-.projects .pro-content .card{
-  /* width: calc(33% - 20px); */
-  /* background: #222; */
-  text-align: center;
+
+.projects .title::before {
+  background: #fff; 
+}
+
+.projects .carousel .card {
+  background:#d24439;
   border-radius: 6px;
-  padding: 20px 25px;
-  cursor: pointer;
+  padding: 25px 35px;
+  text-align: center;
+  overflow: hidden;
   transition: all 0.3s ease;
 }
-.projects .pro-content .card .box{
-  transition: all 0.3s ease;
+
+.projects .carousel .card:hover {
   background: #d24439;
-  border-radius: 5px;
 }
-.projects .pro-content .card .box img {
-  height: 170px;
-  width: 300px;
-  margin-top: 5px;
-  border: 2px solid black;
-  object-fit: cover;
+
+.projects .carousel .card .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space space-around;
+  transition: all 0.3s ease;
 }
-.projects .pro-content .card:hover .box{
+
+.projects .carousel .card:hover .box {
   transform: scale(1.05);
 }
-.projects .pro-content .card i{
-  font-size: 50px;
-  color: #fff;
-  transition: color 0.3s ease;
-  margin-top: 0;
-  padding-bottom: 5px;
-}
-.projects .pro-content .card:hover i{
-  color: #fff;
-}
-.projects .pro-content .card p {
-  color: #d24439 !important;
-}
-.projects .pro-content .card:hover p {
-  color: #fff!important;
-  padding-bottom: 5px;
-}
-.projects .pro-content .card .text{
+
+.projects .carousel .card .text {
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 700;
   margin: 10px 0 7px 0;
+}
+
+.projects .carousel .card p {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0 7px 0;
+  color: #d24439;
+}
+.projects .carousel .card:hover p {
   color: #fff;
 }
-.projects .pro-content{
-  display: flex;
-  flex-wrap: content;
-  align-items: center;
-  justify-content: space-between;
+
+.projects .carousel .card img {
+  height: 250px;
+  width: 350px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 5px solid #d24439;
+  transition: all 0.3s ease;
+}
+
+.projects .carousel .card:hover .fab{
+  color: #fff;
+  font-size: 50px;
 }

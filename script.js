@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(window).scroll(function(){
-        // sticky navbar on scroll script
+      // sticky navbar on scroll script
         if(this.scrollY > 20){
             $('.navbar').addClass("sticky");
         }else{
@@ -33,9 +33,9 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
-    // owl carousel script
+    // owl carousel script for projects/teams
     $('.carousel').owlCarousel({
-        margin: 20,
+        margin: 30,
         loop: true,
         autoplayTimeOut: 2000,
         autoplayHoverPause: true,
