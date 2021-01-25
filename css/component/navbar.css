@@ -1,5 +1,6 @@
 
 /* navbar styling */
+
 .navbar{
   position: fixed;
   width: 100%;
@@ -17,10 +18,23 @@
   align-items: center;
   justify-content: space-between;
 }
+.navbar .logo img {
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+  outline: 4px solid #d24439;
+  rotate: -46deg!important;
+}
+.navbar .logo img:hover {
+  transform: scale(1.1);
+  border: 1px solid#d24439;
+  outline: 2px solid #111;
+}
 .navbar .logo a {
   color: #fff;
   font-size: 35px;
   font-weight: 600;
+  padding-left: 15px;
 }
 .navbar .logo a span {
   color: #d24439;
