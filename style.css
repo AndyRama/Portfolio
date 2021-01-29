@@ -28,7 +28,7 @@ html {
 
 .banner {
   /* background: url("images/banner.jpeg") no-repeat center; */
-  background: black;
+  background: linear-gradient(-45deg ,#fff,#d24439,#111);
 }
 
 /* custom scroll bar */

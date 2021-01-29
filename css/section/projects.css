@@ -2,7 +2,7 @@
 /* projects section styling */
 .projects {
   color:#fff;
-  background: #111;
+  background: linear-gradient(-45deg ,#fff,#d24439,#111);
 }
 
 .projects .title::after {
@@ -21,6 +21,7 @@
   text-align: center;
   overflow: hidden;
   transition: all 0.3s ease;
+  opacity: 0.8;
 }
 
 .projects .carousel .card:hover {
