@@ -2,7 +2,8 @@
 /* projects section styling */
 .projects {
   color:#fff;
-  background: linear-gradient(-45deg ,#fff,#d24439,#111);
+  /* background: linear-gradient(-45deg ,#fff,#d24439,#111); */
+  background: #111;
 }
 
 .projects .title::after {
