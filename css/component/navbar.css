@@ -23,7 +23,7 @@
   width: 20px;
   border: 1px solid black;
   outline: 4px solid #d24439;
-  rotate: -46deg!important;
+  /* rotate: -46deg!important; */
 }
 .navbar .logo img:hover {
   transform: scale(1.1);

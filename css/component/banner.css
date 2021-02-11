@@ -2,7 +2,7 @@
 /* banner section styling */
 .banner {
   display: flex;
-  background: url("images/banner.jpeg") no-repeat center;
+  /* background: url("images/banner1.jpeg") no-repeat center; */
   height: 100vh;
   color: #fff;
   min-height: 500px;
