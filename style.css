@@ -142,6 +142,11 @@ section .title::after{
   .max-width{
     padding: 0 50px;  
   }
+  .contact .contact-content .right img {
+    /* flex-direction: column; */
+    height: 254px !important;
+    width: 630px !important;
+  }
 }
 @media (max-width: 947px){
   .menu-btn{
@@ -206,6 +211,11 @@ section .title::after{
     width: 100%;
     margin-bottom: 35px;
   }
+   .contact .contact-content .right img {
+    flex-direction: column;
+    height: 254px !important;
+    width: 630px !important;
+  }
 }
 
 @media (max-width: 690px) {
@@ -213,7 +223,7 @@ section .title::after{
     padding: 0 23px;
   }
   .home .home-content .text-2{
-    font-size: 60px;
+    font-size: 50px;
   }
   .home .home-content .text-3{
     font-size: 32px;
@@ -228,7 +238,7 @@ section .title::after{
 
 @media (max-width: 500px) {
   .home .home-content .text-2{
-    font-size: 50px;
+    font-size: 40px;
   }
   .home .home-content .text-3{
     font-size: 27px;
@@ -236,13 +246,12 @@ section .title::after{
   .about .about-content .right .text{
     font-size: 19px;
   }
-  /* .contact .right form .fields{
+  .contact .contact-content .right img {
     flex-direction: column;
-  } */
-  .contact .right form .name,
-  .contact .right form .email{
-    margin: 0;
+    height: 208px !important;
+    width: 325px !important;
   }
+  
   .scroll-up-btn{
     right: 15px;
     bottom: 15px;
