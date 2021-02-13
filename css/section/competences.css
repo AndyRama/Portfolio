@@ -17,7 +17,7 @@ color:#111;
 .competences .comp-content .card {
 	width: calc(33% - 20px);
 	background: #222;
-	text-align: center;
+	/* text-align: center; */
 	border-radius: 6px;
 	padding: 20px 25px;
 	margin-bottom:10px;
