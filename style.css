@@ -16,10 +16,10 @@
 @import url(css/section/teams.css);
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 html {
@@ -27,8 +27,10 @@ html {
 }
 
 .banner {
-  /* background: url("images/banner1.jpeg") no-repeat center; */
-  background: linear-gradient(-45deg ,#fff,#d24439,#111);
+  /* background: url("images/contact.jpg") no-repeat center; */
+  /* background: linear-gradient(-45deg ,#fff,#d24439,#111); */
+  background: url("images/banner4.jpeg") no-repeat center
+;
 }
 
 /* custom scroll bar */
@@ -143,7 +145,7 @@ section .title::after{
     padding: 0 50px;  
   }
   .contact .contact-content .right img {
-    /* flex-direction: column; */
+    flex-direction: column;
     height: 254px !important;
     width: 630px !important;
   }
