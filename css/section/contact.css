@@ -41,7 +41,7 @@
   object-fit: cover;
   border-radius: 6px;
   margin: center;
-  display: inline-block;
+  /* display: flex; */
 }
 
 .contact .right form .fields{
