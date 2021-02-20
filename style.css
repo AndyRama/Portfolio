@@ -28,9 +28,8 @@ html {
 
 .banner {
   /* background: url("images/contact.jpg") no-repeat center; */
-  background: linear-gradient(-45deg ,#111,#d24439,#fff);
-  /* background: url("images/banner1.jpeg") no-repeat center */
-;
+  /* background: linear-gradient(-45deg ,#111,#d24439,#fff); */
+  background: url("images/banner1.jpg") center;
 }
 
 /* custom scroll bar */
