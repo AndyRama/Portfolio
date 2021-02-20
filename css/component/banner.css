@@ -5,7 +5,7 @@
   height: 100vh;
   color: #fff;
   min-height: 500px;
-  /* background-size: cover; */
+  background-size: cover;
   background-attachment: fixed;
   font-family: 'Ubuntu', sans-serif;
   position:relative;
@@ -26,7 +26,8 @@
   margin: 5px 0;
 }
 .banner .banner-content .text-3 span {
-  color:  #111;
+  color:  #d24439;
+;
   font-weight: 500;
 }
 .banner .banner-content a {

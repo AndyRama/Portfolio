@@ -49,11 +49,12 @@
 }
 .navbar .menu li a {
     display: block;
-    color: #fff;
+    color: #d24439;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
+    font-weight: 500;
 }
 .navbar .menu li a:hover {
     color: #111;
