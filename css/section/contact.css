@@ -1,6 +1,11 @@
 /* contact section styling */
-.contact .title::after{
+/* .contact .title::after{
   content: "n'hesiter pas";
+background: #d24439;
+} */
+.contact{
+ background: linear-gradient(-45deg ,#111,#d24439,#fff);
+
 }
 .contact .contact-content .column{
   width: calc(50% - 30px);

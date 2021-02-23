@@ -40,9 +40,9 @@
   color: #d24439;
   transition: all 0.3s ease;
 }
-.navbar.sticky .logo a span {
+/* .navbar.sticky .logo a span {
   color: #fff;
-}
+} */
 .navbar .menu li {
   list-style: none; 
   display: inline-block;
@@ -54,7 +54,7 @@
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
-    font-weight: 500;
+    font-weight: 700;
 }
 .navbar .menu li a:hover {
     color: #111;
