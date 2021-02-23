@@ -23,6 +23,7 @@ color:#111;
 	margin-bottom:10px;
 	cursor: pointer;
 	transition: all 0.3s ease;
+  /* background-color:#d24439; */
 }
 .competences .comp-content .card:hover {
 	background: #d24439;
