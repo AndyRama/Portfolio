@@ -27,9 +27,8 @@ html {
 }
 
 .banner {
-  /* background: url("images/contact.jpg") no-repeat center; */
-  /* background: linear-gradient(-45deg ,#111,#d24439,#fff); */
-  background: url("images/banner1.jpg") center;
+  background: url("images/banner1.jpg") no-repeat center;
+
 }
 
 /* custom scroll bar */
