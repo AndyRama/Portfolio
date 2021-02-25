@@ -40,9 +40,9 @@
   transition: all 0.3s ease;
 }
 
-/* .projects .carousel .card:hover .box {
+.projects .carousel .card:hover .box {
   transform: scale(1.05);
-} */
+}
 
 .projects .carousel .card .text {
   font-size: 25px;
@@ -67,6 +67,8 @@
   border-radius: 5px;
   /* border: 5px solid #d24439; */
   transition: all 0.3s ease;
+align-items: center;
+padding-left: 3px;
 }
 
 .projects .carousel .card:hover .fab{
