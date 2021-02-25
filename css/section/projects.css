@@ -2,28 +2,30 @@
 /* projects section styling */
 .projects {
   color:#fff;
-  /* background: linear-gradient(-45deg ,#111,#d24439,#fff); */
-  background: #111;
+  background: linear-gradient(-45deg ,#111,#d24439,#fff);
+  /* background: #111; */
 }
 
-.projects .title::after {
-  content: "En production";
-  background: #111;
-}
+/* .projects .title::after { */
+  /* content: "En production"; */
+   /* background: linear-gradient(-45deg ,#111,#d24439,#fff); */
+  /* background: #fff; */
+
+/* } */
 
 .projects .title::before {
   background: #fff; 
 }
 
 .projects .carousel .card {
+  /* background: linear-gradient(-45deg ,#111,#d24439,#fff); */
   background:#111;
   border-radius: 6px;
   padding: 25px 35px;
   text-align: center;
   overflow: hidden;
   transition: all 0.3s ease;
-  background: linear-gradient(-45deg ,#111,#d24439,#fff);
-  /* opacity: 0.8; */
+  opacity: 0.8;
 }
 
 /* .projects .carousel .card:hover {
