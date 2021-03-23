@@ -6,6 +6,7 @@
 @import url(css/component/btn.css);
 @import url(css/component/footer.css);
 @import url(css/component/navbar.css);
+@import url(css/component/card.css);
 
 /* --- Section design --- */
 @import url(css/section/about.css);
