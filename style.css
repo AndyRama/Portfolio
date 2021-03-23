@@ -289,9 +289,7 @@ section .title::after {
     height        : 208px !important;
     width         : 325px !important;
     margin-bottom : -100px !important;
-    ;
     margin-left: 33px !important;
-    ;
   }
 
   .scroll-up-btn {
