@@ -7,3 +7,8 @@
 .projects .title::before {
   background: #fff;
 }
+
+.projects .text-footer span {
+  color:#d24439;
+  font-size:bold;
+}
